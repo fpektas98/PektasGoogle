@@ -1,0 +1,58 @@
+main{
+    display: block;
+}
+
+header{
+    display: block;
+    text-align: -webkit-center;
+}
+article {
+    display: block;
+    text-align: -webkit-center;
+}
+form{
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal
+}
+input{
+    margin: 0em;
+    margin-bottom: 4px;
+    /* Bu özellik metinlerin yatay mı dikey mi gözükeceğini belirler */
+    writing-mode: horizontal-tb !important;
+     /* text-rendering özelliği okunabilirliği ayarlamamızı sağlayan bir özelliktir.
+    Bu özellik sayesinde tarayıcının metinlerimizi nasıl tarayacağını belirleyebiliyoruz.  */
+    text-rendering: auto;
+     /* Harfler arası mesafeyi ayarlamak için kullanılır. Negatif ya da ondalık sayılar değer olarak belirlenebilir */
+     letter-spacing: normal;
+      /* , kelimeler arasındaki boşluğu arttırmak veya azaltmak için kullanılır. */
+    word-spacing: normal;
+    /* satır yüksekliğini belirtir yazı tipinin kalınlğını ve boyutunu belirtir */
+    line-height: normal;
+    /* Harflerin büyük-küçük dönüşümünü sağlamak için bu özellik kullanılır. */
+    color: fieldtext;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+
+}
